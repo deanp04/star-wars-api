@@ -7,100 +7,100 @@ app.use(cors())
 
 const character = {
     'darth vader': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'tatooine',
+        'species': 'human',
+        'height': '6ft, 2in',
+        'allegiance': 'sith, galactic empire',
     },
     'ahsoka tano': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'shili',
+        'species': 'togruta',
+        'height': '5ft, 5in',
+        'allegiance': 'rebel alliance',
     },
     'luke skywalker': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'tatooine',
+        'species': 'human',
+        'height': '5ft, 6in',
+        'allegiance': 'jedi, rebel alliance',
     },
     'darth maul': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'dathomir',
+        'species': 'dathomirian',
+        'height': '5ft, 9in',
+        'allegiance': 'sith',
     },
     'yoda': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'dagobah',
+        'species': 'unknown',
+        'height': '2ft, 2in',
+        'allegiance': 'jedi',
     },
     'palpatine': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'naboo',
+        'species': 'human',
+        'height': '5ft, 8in',
+        'allegiance': 'galactic republic',
     },
     'chewbacca': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'kashyyyk',
+        'species': 'wookie',
+        'height': '7ft, 6in',
+        'allegiance': 'rebel alliance',
     },
     'han solo': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'corellia',
+        'species': 'human',
+        'height': '6ft',
+        'allegiance': 'rebel alliance',
     },
     'kylo ren': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'chandrila',
+        'species': 'human',
+        'height': '6ft, 3in',
+        'allegiance': 'first order, knights of ren, new jedi order',
     },
     'leia organa': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'alderaan',
+        'species': 'human',
+        'height': '5ft',
+        'allegiance': 'rebel alliance, the resistance',
     },
     'r2-d2': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'naboo',
+        'species': 'droid',
+        'height': '3ft, 7in',
+        'allegiance': 'rebel alliance, the resistance',
     },
     'c-3po': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'tatooine',
+        'species': 'droid',
+        'height': '5ft, 9in',
+        'allegiance': 'rebel alliance, the resistance',
     },
     'mace windu': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'haruun kal',
+        'species': 'human',
+        'height': '6ft, 3in',
+        'allegiance': 'jedi, galactic republic',
     },
     'obi-wan kenobi': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'stewjon',
+        'species': 'human',
+        'height': '6ft',
+        'allegiance': 'jedi',
     },
     'din djarin': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'aq vetina',
+        'species': 'human',
+        'height': '6ft, 1in',
+        'allegiance': 'mandolorians, bounty hunter',
     },
     'grogu': {
-        'homeworld': ,
-        'species': ,
-        'height': ,
-        'allegiance': ,
+        'homeworld': 'coruscant',
+        'species': 'unknown',
+        'height': '1ft, 1in',
+        'allegiance': 'unknown',
     },
 }
 
@@ -109,11 +109,11 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/api/:name', (req, res)=>{
-    const rapperName = req.params.name.toLowerCase()
-    if( rappers[rapperName]){
-        res.json(rappers[rapperName])
+    const charName = req.params.name.toLowerCase()
+    if( character[charName]){
+        res.json(character[charName])
     }else{
-        res.json(rappers['unknown'])
+        res.json(character['unknown'])
     }
 })
 
