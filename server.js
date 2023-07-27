@@ -20,7 +20,6 @@ const character = {
         'species': 'togruta',
         'height': '5ft, 5in',
         'allegiance': 'rebel alliance',
-        'image': 'https://lumiere-a.akamaihd.net/v1/images/5cb3c849d5de240001a05880-image_c6729179.jpeg?region=0%2C125%2C1536%2C614',
     },
     'luke skywalker': {
         'name': 'Luke Skywalker',
@@ -28,7 +27,6 @@ const character = {
         'species': 'human',
         'height': '5ft, 6in',
         'allegiance': 'jedi, rebel alliance',
-        'image': 'https://pbs.twimg.com/media/Ev-fbCmVkAM4d0x?format=jpg&name=small',
     },
     'darth maul': {
         'name': 'Darth Maul',
@@ -36,7 +34,6 @@ const character = {
         'species': 'dathomirian',
         'height': '5ft, 9in',
         'allegiance': 'sith',
-        'image': 'https://i.imgflip.com/74auxj.jpg',
     },
     'yoda': {
         'name': 'Yoda',
@@ -44,7 +41,6 @@ const character = {
         'species': 'unknown',
         'height': '2ft, 2in',
         'allegiance': 'jedi',
-        'image': 'https://www.yourtango.com/sites/default/files/image_blog/yoda-quotes.png',
     },
     'palpatine': {
         'name': 'Palpatine',
