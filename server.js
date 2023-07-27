@@ -11,7 +11,7 @@ const character = {
         'species': 'human',
         'height': '6ft, 2in',
         'allegiance': 'sith, galactic empire',
-        'image': 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F295900638016453414%2F&psig=AOvVaw0JngUl6KWHTZ_XJgrQ0uWT&ust=1690511225303000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNipt5zrrYADFQAAAAAdAAAAABAE'
+        'image': 'https://i.pinimg.com/1200x/8f/38/a0/8f38a0529ca7d149f078f50ca2866f3f.jpg'
     },
     'ahsoka tano': {
         'homeworld': 'shili',
