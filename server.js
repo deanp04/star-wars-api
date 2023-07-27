@@ -20,6 +20,7 @@ const character = {
         'species': 'togruta',
         'height': '5ft, 5in',
         'allegiance': 'rebel alliance',
+        'image': 'https://-a.akamaihd.net/v1/images/5cb3c849d5de240001a05880-image_c6729179.jpeg?region=0%2C125%2C1536%2C614',
     },
     'luke skywalker': {
         'name': 'Luke Skywalker',
@@ -27,6 +28,7 @@ const character = {
         'species': 'human',
         'height': '5ft, 6in',
         'allegiance': 'jedi, rebel alliance',
+        'image': 'https://pbs.twimg.com/media/Ev-fbCmVkAM4d0x?format=jpg&name=small',
     },
     'darth maul': {
         'name': 'Darth Maul',
@@ -34,6 +36,7 @@ const character = {
         'species': 'dathomirian',
         'height': '5ft, 9in',
         'allegiance': 'sith',
+        'image': 'https://i.imgflip.com/74auxj.jpg',
     },
     'yoda': {
         'name': 'Yoda',
@@ -41,6 +44,7 @@ const character = {
         'species': 'unknown',
         'height': '2ft, 2in',
         'allegiance': 'jedi',
+        'image': 'https://www.yourtango.com/sites/default/files/image_blog/yoda-quotes.png',
     },
     'palpatine': {
         'name': 'Palpatine',
@@ -48,7 +52,6 @@ const character = {
         'species': 'human',
         'height': '5ft, 8in',
         'allegiance': 'galactic republic',
-        'image': '',
     },
     'chewbacca': {
         'name': 'Chewbacca',
@@ -56,7 +59,6 @@ const character = {
         'species': 'wookie',
         'height': '7ft, 6in',
         'allegiance': 'rebel alliance',
-        'image': ,
     },
     'han solo': {
         'name': 'Han Solo',
@@ -64,7 +66,6 @@ const character = {
         'species': 'human',
         'height': '6ft',
         'allegiance': 'rebel alliance',
-        'image': ,
     },
     'kylo ren': {
         'name': 'Kylo Ren',
@@ -72,7 +73,6 @@ const character = {
         'species': 'human',
         'height': '6ft, 3in',
         'allegiance': 'first order, knights of ren, new jedi order',
-        'image': ,
     },
     'leia organa': {
         'name': 'Leia Organa',
@@ -80,7 +80,6 @@ const character = {
         'species': 'human',
         'height': '5ft',
         'allegiance': 'rebel alliance, the resistance',
-        'image': ,
     },
     'r2-d2': {
         'name': 'R2-D2',
@@ -88,7 +87,6 @@ const character = {
         'species': 'droid',
         'height': '3ft, 7in',
         'allegiance': 'rebel alliance, the resistance',
-        'image': ,
     },
     'c-3po': {
         'name': 'C-3PO',
@@ -96,7 +94,6 @@ const character = {
         'species': 'droid',
         'height': '5ft, 9in',
         'allegiance': 'rebel alliance, the resistance',
-        'image': ,
     },
     'mace windu': {
         'name': 'Mace Windu',
@@ -104,7 +101,6 @@ const character = {
         'species': 'human',
         'height': '6ft, 3in',
         'allegiance': 'jedi, galactic republic',
-        'image': ,
     },
     'obi-wan kenobi': {
         'name': 'Obi-Wan Kenobi',
@@ -112,7 +108,6 @@ const character = {
         'species': 'human',
         'height': '6ft',
         'allegiance': 'jedi',
-        'image': ,
     },
     'din djarin': {
         'name': 'Din Djarin',
@@ -120,7 +115,6 @@ const character = {
         'species': 'human',
         'height': '6ft, 1in',
         'allegiance': 'mandolorians, bounty hunter',
-        'image': ,
     },
     'grogu': {
         'name': 'Grogu',
@@ -128,7 +122,6 @@ const character = {
         'species': 'unknown',
         'height': '1ft, 1in',
         'allegiance': 'unknown',
-        'image': ,
     },
 }
 
