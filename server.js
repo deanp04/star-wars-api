@@ -20,7 +20,7 @@ const character = {
         'species': 'togruta',
         'height': '5ft, 5in',
         'allegiance': 'rebel alliance',
-        'image': 'https://-a.akamaihd.net/v1/images/5cb3c849d5de240001a05880-image_c6729179.jpeg?region=0%2C125%2C1536%2C614',
+        'image': 'https://www.looper.com/img/gallery/the-untold-truth-of-ahsoka-tano/intro-1584131265.jpg',
     },
     'luke skywalker': {
         'name': 'Luke Skywalker',
@@ -52,6 +52,7 @@ const character = {
         'species': 'human',
         'height': '5ft, 8in',
         'allegiance': 'galactic republic',
+        'image': 'https://img.memegenerator.net/instances/81963699.jpg'
     },
     'chewbacca': {
         'name': 'Chewbacca',
@@ -59,6 +60,7 @@ const character = {
         'species': 'wookie',
         'height': '7ft, 6in',
         'allegiance': 'rebel alliance',
+        'image': 'https://i.chzbgr.com/full/9789323520/h905699C4/part-aggg-rooo-ragg-roooogghh-did-not-understand-imgflipcom'
     },
     'han solo': {
         'name': 'Han Solo',
@@ -66,6 +68,7 @@ const character = {
         'species': 'human',
         'height': '6ft',
         'allegiance': 'rebel alliance',
+        'image': 'https://i.chzbgr.com/full/5311211776/h0D2FF4BE/han-solo'
     },
     'kylo ren': {
         'name': 'Kylo Ren',
@@ -73,6 +76,7 @@ const character = {
         'species': 'human',
         'height': '6ft, 3in',
         'allegiance': 'first order, knights of ren, new jedi order',
+        'image': 'https://www.washingtonpost.com/news/comic-riffs/wp-content/uploads/sites/15/2015/12/STARWARS-kylo-ren-awakens.jpg'
     },
     'leia organa': {
         'name': 'Leia Organa',
@@ -80,6 +84,7 @@ const character = {
         'species': 'human',
         'height': '5ft',
         'allegiance': 'rebel alliance, the resistance',
+        'image': 'https://www.themarysue.com/wp-content/uploads/2017/01/C0tEq_RXcAAmHsn.jpg?fit=540%2C311'
     },
     'r2-d2': {
         'name': 'R2-D2',
@@ -87,6 +92,7 @@ const character = {
         'species': 'droid',
         'height': '3ft, 7in',
         'allegiance': 'rebel alliance, the resistance',
+        'image': 'https://images.squarespace-cdn.com/content/v1/5816496ef5e2319b546c5d19/1496337570456-RJGQM9UF7G1BUFO3XX8M/image-asset.jpeg'
     },
     'c-3po': {
         'name': 'C-3PO',
@@ -94,6 +100,7 @@ const character = {
         'species': 'droid',
         'height': '5ft, 9in',
         'allegiance': 'rebel alliance, the resistance',
+        'image': 'https://imgix.ranker.com/list_img_v2/3106/2563106/original/times-c-3po-was-awesome?w=817&h=427&fm=jpg&q=50&fit=crop'
     },
     'mace windu': {
         'name': 'Mace Windu',
@@ -101,6 +108,7 @@ const character = {
         'species': 'human',
         'height': '6ft, 3in',
         'allegiance': 'jedi, galactic republic',
+        'image': 'https://www.nme.com/wp-content/uploads/2016/09/2015StarWarsGallery_MaceWindu_Press_131115-696x462.jpg'
     },
     'obi-wan kenobi': {
         'name': 'Obi-Wan Kenobi',
@@ -108,6 +116,7 @@ const character = {
         'species': 'human',
         'height': '6ft',
         'allegiance': 'jedi',
+        'image': 'https://www.digitalmomblog.com/wp-content/uploads/2022/05/hello-there-meme-obi-wan.jpg'
     },
     'din djarin': {
         'name': 'Din Djarin',
@@ -115,6 +124,7 @@ const character = {
         'species': 'human',
         'height': '6ft, 1in',
         'allegiance': 'mandolorians, bounty hunter',
+        'image': 'https://www.digitalmomblog.com/wp-content/uploads/2023/01/mandalorian-baby-yoda-meme.jpeg'
     },
     'grogu': {
         'name': 'Grogu',
@@ -122,6 +132,7 @@ const character = {
         'species': 'unknown',
         'height': '1ft, 1in',
         'allegiance': 'unknown',
+        'image': 'https://insidethemagic.net/wp-content/uploads/2020/12/Screen-Shot-2020-12-26-at-7.49.52-PM-800x400.png'
     },
 }
 
